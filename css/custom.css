@@ -6,14 +6,20 @@ html {
   color: #343434; }
   html body {
     background-color: #fefefe; }
-    html body .row, html body .header, html body .content, html body .footer {
+    html body table {
+      width: 100%; }
+      html body table tr td {
+        border: solid 1px #333;
+        padding: 5px;
+        text-align: center; }
+    html body .row, html body .row.header, html body .row.content, html body .row.footer {
       width: 800px;
       margin: 0 auto 12px;
       background-color: white;
       border: solid 1px #ccc;
       box-sizing: border-box;
       padding: 10px; }
-    html body .header {
+    html body .header.row {
       color: red; }
 
 /*# sourceMappingURL=custom.css.map */
