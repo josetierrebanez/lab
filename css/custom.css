@@ -1,1 +1,19 @@
+html {
+  font-family: Arial;
+  padding: 0px;
+  margin: 0px;
+  font-size: 14px;
+  color: #343434; }
+  html body {
+    background-color: #fefefe; }
+    html body .row, html body .header, html body .content, html body .footer {
+      width: 800px;
+      margin: 0 auto 12px;
+      background-color: white;
+      border: solid 1px #ccc;
+      box-sizing: border-box;
+      padding: 10px; }
+    html body .header {
+      color: red; }
 
+/*# sourceMappingURL=custom.css.map */
